@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;0,900;1,500&display=swap');
+
+
+:root{
+    --font: 'Ubuntu', sans-serif;
+    --base-color: #FAFAFA;
+
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: var(--font);
+    
+}
+
+.default-container{
+    display: grid;
+    place-items: center;
+}
+
+.nav-site{
+    background-color: rgb(152, 236, 163);
+}
+
+.nav-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.nav-login{
+    margin-right: 5em;
+}
+
+.logo{
+    margin-left: 5em;
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo-capa{
+    width: 200px;
+    height: 200px;
+}
+
+.logo-div{
+    padding: 50px;
+}
+
+.btn-nav-login{
+    width: 4.5em;
+    height: 2em;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-nav-login:focus{
+    outline-width: 0;
+}
+.btn-nav-login:hover{
+    background-color: chartreuse;
+    transition: 1s;
+}
