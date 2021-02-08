@@ -39,6 +39,15 @@ p {
     height: 50px;
 }
 
+.logo-capa{
+    width: 200px;
+    height: 200px;
+}
+
+.logo-div{
+    padding: 50px;
+}
+
 .default-container{
     text-align: center;
     display: flex;
