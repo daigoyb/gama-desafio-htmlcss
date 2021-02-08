@@ -84,6 +84,14 @@ a:visited:hover{
     letter-spacing: 0.2em;
 }
 
+.texto-medio {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.texto-form{
+    color: #ffffff;
+}
 
 
 .btn-nav-login{
@@ -105,7 +113,7 @@ a:visited:hover{
 
 .landing-page{
     background-image: url('../img/walking_outside.svg');
-    height: 100vh;
+    height: 130vh;
     display: flex;
     justify-content: space-around;
     background-position: center;
@@ -117,7 +125,7 @@ a:visited:hover{
     position:sticky;
     background-color: #6e6e6ea8;
     width: 400px;
-    padding: 45px;
+    padding: 30px;
     border-radius: 30px;
     margin-top: auto;
     margin-bottom: auto;
@@ -244,7 +252,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 }
 
 .btn-landing-page:hover{
-    background-color: #65d88b;
+    background-color: #9c40da;
     transition: 1s;
 }
 
@@ -286,4 +294,10 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
     text-shadow: .03em .03em 0 rgb(110, 2, 143);
     border: 4px double rgba(122, 122, 122, 0.25);
     border-width: 0 0 4px 0;
+ }
+
+ .text-parallax-park{
+     width: 200px;
+     display: flex;
+     justify-content: center;
  }

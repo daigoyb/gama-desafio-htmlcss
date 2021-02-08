@@ -4,6 +4,7 @@
 :root{
     --font: 'Ubuntu', sans-serif;
     --base-color: #FAFAFA;
+    --gridWidth: 80%;
 
 }
 
@@ -33,24 +34,15 @@ html, body{
 }
 
 .nav-login{
-    margin-right: 5em;
+    margin-right: 15%;
 }
 
 .logo{
-    margin-left: 5em;
+    margin-left: 15%;
 }
 .logo-img{
     width: 50px;
     height: 50px;
-}
-
-.logo-capa{
-    width: 200px;
-    height: 200px;
-}
-
-.logo-div{
-    padding: 50px;
 }
 
 .btn-nav-login{
@@ -69,3 +61,20 @@ html, body{
     background-color: chartreuse;
     transition: 1s;
 }
+
+.grid{
+    margin: 0 auto;
+    width: var(--gridWidth)
+}
+    
+.hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
