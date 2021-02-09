@@ -6,8 +6,6 @@ const LOCALHOST = "localhost:5500/"
 
 
 
-
-
 async function login(user, senha){
     try {
         const response = await fetch(`${BASE_URL}altera-senha`, {
@@ -22,12 +20,12 @@ async function login(user, senha){
         })
         .then( res => {
             if (res.ok){
-                location.replace(`${LOCALHOST}dashboard.html`);
+                location.replace('dashboard.html');
                 const resData = res.json()
                 console.log(resData);
                 
             }
-            location.replace(`${LOCALHOST}error.html`)
+            location.replace('error.html')
             return Promise.reject(res)
         })
     } catch (error) {
@@ -51,9 +49,9 @@ async function alterarSenha(user, senha){
         .then( res => {
             if (res.ok){
                 console.log(res.json());
-                location.replace(`${LOCALHOST}login.html`);
+                location.replace('login.html');
             }
-            location.replace(`${LOCALHOST}error.html`)
+            location.replace('error.html')
             return Promise.reject(res)
         })
     } catch (error) {
