@@ -23,38 +23,39 @@
     
     <main class="default-container">
         <section class="grid">
-            <form action="">
-                <div class="form--field">
-                    <label for="login--username">
+            <form id="submitCadastro" class="form login">
+                <div class="form__field">
+                    <label for="login__username">
                         <i class="fas fa-user"></i>
                         <span class="hidden">Username</span>
                     </label>
                     <input 
-                        id="login--username" 
+                        id="login__username" 
                         type="text" 
                         name="username" 
-                        class="form--input" 
+                        class="form__input" 
                         placeholder="User" 
                         required>
                 </div>
-                <div class="form--field">
-                    <label for="login--password">
+                <div class="form__field">
+                    <label for="login__password">
                         <i class="fas fa-lock" id="icons"></i>
                         <span class="hidden">Password</span>
                     </label>
                     <input 
-                        id="login--password" 
+                        id="login__password" 
                         type="text" 
                         name="password" 
-                        class="form--input" 
+                        class="form__input" 
                         placeholder="Password" 
                         required>
                 </div>
-                <div class="form--field">
+                <div class="form__field">
                     <input type="submit" value="Entrar">
                   </div>
             </form>
-            <p>Não está inscrito?<a href="index.html">Inscreva-se agora!</a></p>
+            <p class="text--center">Não está inscrito?<a href="index.html">Inscreva-se agora!</a></p>
+            <p class="text--center"><a href="">Esqueci minha senha <i class="fas fa-arrow-right"></i></a></p>
         </section>
     </main>
 </body>
